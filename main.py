@@ -1,3 +1,6 @@
+import time
+
+
 def get_todos(filepath='todos.txt'):
 
     with open(filepath, 'r') as file_local:
@@ -7,6 +10,10 @@ def get_todos(filepath='todos.txt'):
 def write_todos(todos_arg, filepath='todos.txt'):
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
+
+now = time.strftime("%b %d, %Y %H:%M:%S")
+print("the time is below:")
+print("It is", now)
 
 while True:
     user_action = input('Type add, show, edit, complete, or exit: ')
