@@ -2,9 +2,8 @@
 import time
 import functions
 
-
 now = time.strftime("%b %d, %Y %H:%M:%S")
-print("the time is below:")
+print("The date is below:")
 print("It is", now)
 
 while True:
