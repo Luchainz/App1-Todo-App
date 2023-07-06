@@ -1,1 +1,1 @@
-This is my first project, and my initial understanding of Github..# Todo-app
+The Todo App can be found inside of the web.py file.
