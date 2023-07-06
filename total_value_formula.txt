@@ -6,3 +6,4 @@ try:
     print ("That is", f'{calc}%')
 except ValueError:
     print('Please enter a number.')
+
